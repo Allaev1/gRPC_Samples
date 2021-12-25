@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "gRPC_Streaming";
+
+package pinPong;
+
+service Chat {
+	rpc Start(stream Request) returns (stream Response);
+}
+
+message Request {
+	string message=1;
+}
+
+message Response {
+	string message=1;
+}

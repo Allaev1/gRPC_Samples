@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F1A86A2-6066-4474-9F2D-14CB03A9B686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Streaming", "Streaming", "{94BB427D-E6E1-477B-9DA5-3D1D5AD4DFEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC_Client", "src\Streaming\gRPC_Client\gRPC_Client.csproj", "{99162C5F-3B19-4BB5-83D3-5C771BA5EA60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC_Streaming", "src\Streaming\gRPC_Streaming\gRPC_Streaming.csproj", "{5782D005-ABE4-47F1-9BE3-09A607FF798B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Streaming_JWT", "Streaming_JWT", "{D9D0BE15-932B-4FEE-AC85-EDC9CE02EE4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC_Client", "src\Streaming_JWT\gRPC_Client\gRPC_Client.csproj", "{AAA3A5E2-63E9-417C-9299-C74DF733D386}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC_Streaming", "src\Streaming_JWT\gRPC_Streaming\gRPC_Streaming.csproj", "{10470F0A-5E7F-4C56-A54C-21C7F924B588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStreaming", "PhotoStreaming", "{B4DF5BEA-CA1C-4CBB-889B-48328EB66928}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStreaming", "src\PhotoStreaming\PhotoStreaming\PhotoStreaming.csproj", "{205FDF35-08E9-4279-83C8-EDF0E4FBD844}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStreaming_Client", "src\PhotoStreaming\PhotoStreaming_Client\PhotoStreaming_Client.csproj", "{F526AB5F-C2F9-4FF1-80C5-9AC07BE1B3D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99162C5F-3B19-4BB5-83D3-5C771BA5EA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99162C5F-3B19-4BB5-83D3-5C771BA5EA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99162C5F-3B19-4BB5-83D3-5C771BA5EA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99162C5F-3B19-4BB5-83D3-5C771BA5EA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5782D005-ABE4-47F1-9BE3-09A607FF798B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5782D005-ABE4-47F1-9BE3-09A607FF798B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5782D005-ABE4-47F1-9BE3-09A607FF798B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5782D005-ABE4-47F1-9BE3-09A607FF798B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA3A5E2-63E9-417C-9299-C74DF733D386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA3A5E2-63E9-417C-9299-C74DF733D386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA3A5E2-63E9-417C-9299-C74DF733D386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA3A5E2-63E9-417C-9299-C74DF733D386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10470F0A-5E7F-4C56-A54C-21C7F924B588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10470F0A-5E7F-4C56-A54C-21C7F924B588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10470F0A-5E7F-4C56-A54C-21C7F924B588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10470F0A-5E7F-4C56-A54C-21C7F924B588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205FDF35-08E9-4279-83C8-EDF0E4FBD844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205FDF35-08E9-4279-83C8-EDF0E4FBD844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205FDF35-08E9-4279-83C8-EDF0E4FBD844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205FDF35-08E9-4279-83C8-EDF0E4FBD844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F526AB5F-C2F9-4FF1-80C5-9AC07BE1B3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F526AB5F-C2F9-4FF1-80C5-9AC07BE1B3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F526AB5F-C2F9-4FF1-80C5-9AC07BE1B3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F526AB5F-C2F9-4FF1-80C5-9AC07BE1B3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94BB427D-E6E1-477B-9DA5-3D1D5AD4DFEC} = {8F1A86A2-6066-4474-9F2D-14CB03A9B686}
+		{99162C5F-3B19-4BB5-83D3-5C771BA5EA60} = {94BB427D-E6E1-477B-9DA5-3D1D5AD4DFEC}
+		{5782D005-ABE4-47F1-9BE3-09A607FF798B} = {94BB427D-E6E1-477B-9DA5-3D1D5AD4DFEC}
+		{D9D0BE15-932B-4FEE-AC85-EDC9CE02EE4E} = {8F1A86A2-6066-4474-9F2D-14CB03A9B686}
+		{AAA3A5E2-63E9-417C-9299-C74DF733D386} = {D9D0BE15-932B-4FEE-AC85-EDC9CE02EE4E}
+		{10470F0A-5E7F-4C56-A54C-21C7F924B588} = {D9D0BE15-932B-4FEE-AC85-EDC9CE02EE4E}
+		{B4DF5BEA-CA1C-4CBB-889B-48328EB66928} = {8F1A86A2-6066-4474-9F2D-14CB03A9B686}
+		{205FDF35-08E9-4279-83C8-EDF0E4FBD844} = {B4DF5BEA-CA1C-4CBB-889B-48328EB66928}
+		{F526AB5F-C2F9-4FF1-80C5-9AC07BE1B3D5} = {B4DF5BEA-CA1C-4CBB-889B-48328EB66928}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76059A2A-0A8F-45D7-8C3E-CE0FED2D9879}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "PhotoStreaming";
+
+package photo;
+
+service PhotoStream {
+	rpc GetImage(GetImageRequest) returns (stream GetImageResponse);
+}
+
+message GetImageRequest{
+	int64 byteOffset=1;
+}
+
+message GetImageResponse{
+	bytes data=1;
+}
